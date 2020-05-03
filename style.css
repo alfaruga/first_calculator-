@@ -1,99 +1,64 @@
-h3{
-    color: green;
-    border: 3px solid #1C6EA4;
-    background-color: #f3f3f3;
-    box-shadow: 5px 5px 15px 5px #000000;
+body {
+  background-image: url(/background.jpg);
+  background-size: cover;
+  back
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ccc;
-    font-size: 50px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+button {
+  font-size: 5em;
 }
-footer{
-    background-color: #f3f3f3;
-    text-align: center;
-    font: italic small-caps normal 13px/150% Arial, Helvetica, sans-serif; ;
+h3 {
+  font-size: 4.5em;
+  background-color: whitesmoke;
+  padding: 20px 0;
+  margin: 10vh 0;
+  text-align: center;
+  font-weight: 700;
+  border: 3px solid #000;
+  box-shadow: aqua;
 }
-button{
-    cursor: pointer;
+#numAndOps {
+  display: flex;
 }
-button:hover{
-    transform:scale(1.2);
+#calculator-body {
+  border: 5px solid red;
+  background-color: #000;
+  display: block;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  margin-bottom: 15px;
 }
-button:active{
-    transform:scale(0.8);
+#numberContainer {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 70%;
+  height: 100%;
 }
-#calculatorBody{
-    background: black;
-    margin: auto;
-    display: flex;    
-    flex-direction: column;
-    width: 30%;
-    min-width: 300px;
-    max-width: 350px;
-    height: auto;
-    align-items: center;
-    border-radius: 5%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+#operatorContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
 }
-#numAndOps{
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
+.buttonOperator {
+  font-size: 3.28em;
 }
-#numberContainer{
-    width: 70%;
-    display: grid;
-    margin: 1vh 1vw;
-    grid-template-columns: repeat(3, minmax(55px, 1fr));
-    gap: 25px 10px;
+#display {
+  font-family: "Bank Gothic", "Futura", "Arial";
+  text-align: right;
+  color: red;
+  width: 90%;
+  margin: 15px auto;
+  background-color: #99cc99;
+  font-size: 5em;
 }
-#operatorContainer{
-    width: 30%;
-    display: grid;
-    margin: 1vh 1vw;
-    gap: 10px;
+footer {
+  color:#ccc;
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.5em;
 }
-#display{
-    border: solid  green;
-    border-radius: 15px;
-    background-color: rgba(51, 114, 0, 0);
-    color: red;
-    margin-top: 1vh;
-    height: 10%;
-    width: 95%;
-    text-align: right;
-    font-family: 'Nova Square', cursive;
-}
-.buttonNumber{
-color: white;
-font-size: 50px;
-border-radius: 10%;
-border: 2px solid #f3f3f3;
-background-color: rgb(148, 141, 141);
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-height: 100%;
-transition: transform 0.2s;
-}
-.buttonOperator{
-    color: white;
-    font-size: 40px;
-    border-radius: 10%;
-    border: 2px solid #f3f3f3;
-    background-color: rgb(236, 97, 4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.2s
+button {
+  margin: 10px;
 }
