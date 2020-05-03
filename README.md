@@ -1,7 +1,7 @@
 <h1 style='text-align: center'> This is my first calculator.</h1>
 <h3>A simple calculator made using HTML, JS, CSS and manipulating the DOM. </h3>
 
-<p style='font-size: 1em'>This project was made using plain javascript and stylished with CSS (bootstrap wa added recently). Some interestign details:</p>
+<p style='font-size: 1em'>This project was made using plain javascript and stylished with CSS (bootstrap was added recently). Some interestign details:</p>
 <ul>
 <li>All the operations were preformed with localy made functions </li>
 <li>All the logic behind the operations was stablished using <strong>if</strong>, and <strong>if else</strong> statements and 
